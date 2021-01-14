@@ -13,8 +13,9 @@ button{
     font-family: 'Bebas Neue', cursive ;
 }.custom-card{
     border: none;
-    border-radius: .5rem;
-    box-shadow: 5px 5px 15px rgb(190, 178, 178);
+    border-radius: 1rem;
+    box-shadow: 15px 10px 15px rgb(224, 219, 219);
+    
 }
 .card-footer-custom{
     border: none;
