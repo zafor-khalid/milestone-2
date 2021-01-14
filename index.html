@@ -16,6 +16,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- Font Link Ends -->
 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" class="css">
 </head>
 
@@ -223,52 +225,144 @@
 
         <!-- BOTTOM SECTION STARTS HERE -->
         <section class="container pt-5 mt-5 pb-5 mb-5 d-flex flex-wrap-reverse ">
-        
-          <div class=" col-md-6 pt-5 mt-5 ">
-            <section class=" container custom-card d-flex justify-content-center align-items-center mb-5">
-                <div >
-                    <img src="image/logo-icon/1.png" style="width: 70%; max-width: 70%;" alt="">
-                </div>
-                <div >
-                    <h3>Find the perfect fit</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, rem?</p>
-                </div>
-               
-            </section>
-            <section class=" container custom-card d-flex justify-content-center align-items-center mb-5">
-                <div >
-                    <img src="image/logo-icon/2.png" style="width: 70%; max-width: 70%;" alt="">
-                </div>
-                <div >
-                    <h3>Free exchange</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, rem?</p>
-                </div>
-               
-            </section>
-            <section class=" container custom-card d-flex justify-content-center align-items-center mb-5">
-                <div >
-                    <img src="image/logo-icon/3.png" style="width: 70%; max-width: 70%;" alt="">
-                </div>
-                <div >
-                    <h3>Contact our seller</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, rem?</p>
-                </div>
-               
-            </section>
-          </div>
 
-          <div class="col-md-6 d-flex justify-content-center align-items-center">
-            <img src="image/logo-icon/side view.png" style="width:100%;" alt="">
-          </div>
+            <div class=" col-md-6 pt-5 mt-5 ">
+                <section class=" container custom-card d-flex justify-content-center align-items-center mb-5">
+                    <div>
+                        <img src="image/logo-icon/1.png" style="width: 70%; max-width: 70%;" alt="">
+                    </div>
+                    <div>
+                        <h3>Find the perfect fit</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, rem?</p>
+                    </div>
+
+                </section>
+                <section class=" container custom-card d-flex justify-content-center align-items-center mb-5">
+                    <div>
+                        <img src="image/logo-icon/2.png" style="width: 70%; max-width: 70%;" alt="">
+                    </div>
+                    <div>
+                        <h3>Free exchange</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, rem?</p>
+                    </div>
+
+                </section>
+                <section class=" container custom-card d-flex justify-content-center align-items-center mb-5">
+                    <div>
+                        <img src="image/logo-icon/3.png" style="width: 70%; max-width: 70%;" alt="">
+                    </div>
+                    <div>
+                        <h3>Contact our seller</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, rem?</p>
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="col-md-6 d-flex justify-content-center align-items-center">
+                <img src="image/logo-icon/side view.png" style="width:100%;" alt="">
+            </div>
 
         </section>
         <!-- BOTTOM ENDS HERE  -->
 
+        <!-- FORM SECTION STARTS HERE -->
+        <section class="container bg-warning p-5 mb-5" style="border-radius: .5rem;">
 
+            <h1 class="text-center">Create An Account To Get Coupon And Home Delivery <br><br></h1>
+
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="abc@xyz.com" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Present Address</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Ramna, Dhaka-1100">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Permanent Address </label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Sadar, Rangpur">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">District</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Dhaka">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Division</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Dhaka</option>
+                        <option>Chattagram</option>
+                        <option>Rajshahi</option>
+                        <option>Rangpur</option>
+                        <option>Khulna</option>
+                        <option>Barisal</option>
+                        <option>Sylet</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="number" class="form-control" id="inputZip" placeholder="1100">
+                </div>
+
+                <fieldset class="col">
+                    <legend>Do You Like Penguin Fashion?</legend>
+                    <div class="col-sm-10">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                value="option1" checked>
+                            <label class="form-check-label" for="gridRadios1">
+                                YES
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                                NO
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="customRange2" class="form-label">Enter a rating from 0 to 10</label><br>
+                    <input type="range" class="form-range w-50" min="0" max="10" id="customRange2">
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Accept All Terms And Conditions
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-12" style="word-spacing: 3rem;">
+                    <button type="submit" class="btn btn-lg m">Sign in</button>
+                    <button type="submit" class="btn btn-lg">Sign up</button>
+                </div>
+            </form>
+        </section>
 
     </main>
 
 
+    <footer>
+        <div style="text-align: center;">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            
+        </div>
+        <p style="text-align: center;">copyright &copy;reserved to <a
+                href="mailto:zaforkhalid@gmail.com">zaforkhalid@gmail.com</a></p>
+    </footer>
 
 
 
