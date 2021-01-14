@@ -1,0 +1,22 @@
+button{
+     background-image: linear-gradient( #A4BC46, #85A019); 
+    /* background-image: radial-gradient(#85A019, #A4BC46); */
+    box-shadow: 1px 2px 10px rgb(163, 159, 159);
+    
+}
+.custom-text{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive ;
+}
+.custom-text-yellow{
+    color: #FABE4C;
+    font-family: 'Bebas Neue', cursive ;
+}.custom-card{
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 5px 5px 15px rgb(190, 178, 178);
+}
+.card-footer-custom{
+    border: none;
+    background-color: white;
+}
